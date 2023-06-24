@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="asanchezExamen.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="miestilol" TargetType="Label">
+                <Setter Property="TextColor" Value="Blue"/>
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="Padding" Value="30,50,10,10"/>
+            </Style>
+            <Style x:Key="miestiloe" TargetType="Entry">
+                <Setter Property="TextColor" Value="Aquamarine"/>
+                <Setter Property="FontSize" Value="15"/>
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
